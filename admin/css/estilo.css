@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    margin-top: 0px;
+    
+}
+.tudo{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+table {
+  color: #333;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .9em;
+  font-weight: 300;
+  text-align: left;
+  line-height: 40px;
+  border-spacing: 0;
+  border: 2px solid #975997;
+  width: 950px;
+  margin: 50px auto;
+}
+
+thead tr:first-child {
+  background: #975997;
+  color: #fff;
+  border: none;
+}
+
+th {font-weight: bold;}
+th:first-child, td:first-child {padding: 0 15px 0 20px;}
+
+thead tr:last-child th {border-bottom: 3px solid #ddd;}
+
+tbody tr:hover {background-color: #ffeeff;}
+tbody tr:last-child td {border: none;}
+tbody td {border-bottom: 1px solid #ddd;}
+
+td:last-child {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.button {
+  color: #696969;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.alterar:hover {
+  color: #0a79df;
+}
+
+.excluir:hover {
+  color: #dc2a2a;
+}
+
+.tbId{
+    width: 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tbTitulo{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tbComent{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tbAcao{
+    width: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tbAcaoImg{
+    width: 40px;
+    margin: 0 auto;
+}
+.cont{
+    
+    height: 250px;
+}
+.conteudo{
+    height: 150px;
+}
+.botao{
+    margin-top: 15px;
+}

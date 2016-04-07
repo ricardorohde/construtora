@@ -1,0 +1,273 @@
+@font-face {
+    font-family: SansNarrow;
+    src: url(fonts/sans.narrow.ttf.ttf);
+}
+/* CORPO DA PAGINA */
+.body{
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+/* COMEÇA CABEÇALHO */
+header{
+    background-color: #FFF;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+.topo{
+    width: 950px;
+    height: 200px;
+    margin: 0 auto;
+}
+.logo{
+    margin-right: 60px;
+    height: 170px;
+    width: 160px;
+    margin-top: 15px;
+    float: left;
+}
+/* TERMINA CABEÇALHO */
+
+/* COMEÇA MENU */
+.divMenu{
+    padding-top: 75px;
+}
+.sf-menu {
+  display: inline-block;
+  list-style: none;
+}
+.sf-menu:before, .sf-menu:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.sf-menu:after {
+  clear: both;
+}
+.sf-menu > li {
+  position: relative;
+  float: left;
+}
+.sf-menu > li + li {
+  margin-left: 40px;
+}
+.sf-menu a {
+  display: block;
+}
+
+.sf-menu {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.sf-menu > li > a {
+  text-transform: uppercase;
+  color: #476072;
+}
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
+  color: #980100; /* COR DO LOGO 476072 */
+}
+.sf-menu > li.active > a {
+  color: #980100; /* COR CORRETA 6fc45b #980100*/
+}
+
+.sf-menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 205px;
+  margin-top: 40px;
+  background: #FFF;
+  z-index: 2;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #F8F8F8;
+}
+
+.sf-menu ul {
+  left: -17%;
+}
+.sf-menu ul > li > a {
+  color: #476072;
+  line-height: 45px;
+  padding-left: 20px;
+}
+.sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
+  color: #980100; /* VERMELHO */
+}
+
+.sf-menu ul ul {
+  position: absolute;
+  left: 100%;
+  top: 20%;
+  width: 205px;
+  margin-top: 0;
+  padding: 0;
+  z-index: 4;
+}
+
+.sf-menu ul ul > li > a {
+  color: #476072;
+  background: #FFF;
+}
+.sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
+  color: #980100;
+}
+
+.sf-menu > li > .sf-with-ul {
+  position: relative;
+  margin-right: 17px;
+}
+.sf-menu > li > .sf-with-ul:before {
+  position: absolute;
+  left: 110%;
+  top: 15%;
+  content: '\f107';
+  font: 400 18px/18px "FontAwesome";
+  display: block;
+  margin-right: 20px;
+}
+
+.sf-menu ul > li > .sf-with-ul {
+  position: relative;
+}
+.sf-menu ul > li > .sf-with-ul:before {
+  position: absolute;
+  right: 0;
+  top: 32%;
+  content: '\f105';
+  font: 400 18px/18px "FontAwesome";
+  display: block;
+  margin-right: 20px;
+}
+
+
+/* TERMINA MENU */
+/*COMEÇA CORPO DO PROJETO*/
+.corpo{
+    background-color: #FFF;
+    height: 600px;
+    width: 950px;
+    margin: 0 auto;
+}
+.tituloProjeto{
+    width: 830px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.rl{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 300px;
+    height:2px; 
+    border:none; 
+    color:#980100; 
+    background-color: #980100;
+    float: left;
+}
+.rr{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 300px;
+    height:2px; 
+    border:none; 
+    color:#980100; 
+    background-color:#980100;
+    float: left;
+}
+.titulo1{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family:  "PT Sans Narrow", sans-serif;
+    float: left;
+    color: #980100;
+}
+
+.caixa{
+    margin: 0 auto;
+    background: white;
+    font-family: OpenSans;
+    float: left;
+    width: 300px;
+    height: 510px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.caixa:hover{
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ededed 0%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ededed',GradientType=0 );
+    /* Gradiente */
+}
+.descProd{
+    width: 190px;
+    height: 60px;
+    text-align: center;
+}
+.botao{
+    width: 300px;
+    height: 50px;
+    background: #476072;
+    color: #FFF;
+    font-family: OpenSans;
+}
+
+.botao:hover{
+    width: 300px;
+    height: 50px;
+    background: #980100;
+    color: #FFF;
+    font-family: OpenSans;
+}
+/*TERMINA CORPO DO PROJETO*/
+/* COMEÇA RODA PE */
+footer{
+    background-color: #FFF;
+    margin-top: 25px;
+    height: 250px;
+    width: 100%;
+    z-index: 99;
+    font-family: OpenSans;
+}
+.rodapeCont{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+#bl1{
+    margin-top: 10px;
+    float: left;
+    width: 400px;
+    height: 160px;
+    font-family:Verdana;
+    font-size: 15px;
+}
+#bl2{
+    text-align:left;
+    margin-top: 10px;
+    float: left;
+    width: 150px;
+    height: 160px;
+    font-family:Verdana;
+    font-size: 15px;
+}
+#bl3{
+    margin-top: 10px;
+    float: left;
+    width: 400px;
+    height: 160px;
+    font-family:Verdana;
+    font-size: 15px;
+}

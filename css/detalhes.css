@@ -1,0 +1,45 @@
+
+.detalhes{
+    background-color: #FFF;
+    
+    height: 600px;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.tituloDetal{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-family:Tahoma;
+    color: #476072;
+}
+.hrDet{
+    color: #476072;
+}
+.carrFoto{
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    height: 305px;
+    width: 460px;
+    margin-right: 10px;
+    
+}
+.carrPlanta{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 290px;
+    float: right;
+    width: 460px;
+    margin-right: 40px;
+    
+}
+.letraDet{
+    padding-top: 25px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-family:Tahoma;
+    color: #476072;
+}
