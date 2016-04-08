@@ -25,76 +25,56 @@
         <script src="js/carroussel.js" type="text/javascript"></script>
         <script src="js/shadowbox/shadowbox.js" type="text/javascript"></script>
         <script src="js/galeriaImgShadowBox.js" type="text/javascript"></script>
-        <!--TERMINA JAVA SCRIPT-->
-    </head>
-    <body class="body">
-        <header>
-            <div class="topo">
-                <div class="logo"><img src="imagens/logo.png"></div>
-                <div class="menu">
-                    <?php include('./conteudo/menu.php'); ?>
+        <script src="js/facebook.js" type="text/javascript"></script>
 
-                </div>
+    <!--TERMINA JAVA SCRIPT-->
+
+</head>
+<body class="body">
+    <header>
+        <div class="topo">
+            <div class="logo"><img src="imagens/logo.png"></div>
+            <div class="menu">
+                <?php include('./conteudo/menu.php'); ?>
+
             </div>
-        </header>
+        </div>
+    </header>
 
-        <?php include('slide.php'); ?>
+    <?php include('slide.php'); ?>
 
-        <section class="corpo">
-            <div class="tituloProjeto">
-                <hr  class="rl">
-                <div class="titulo1">Últimos Projetos</div>
-                <hr class="rr">
-            </div>
+    <section class="corpo">
+        <div class="tituloProjeto">
+            <hr  class="rl">
+            <div class="titulo1">Últimos Projetos</div>
+            <hr class="rr">
+        </div>
 
-            <div class="caixa">
-                <form action="produtos.php?id=$id" method="GET" name="datalhe">
-                    <p><img src="imagens/michel.png" width="290" height="400"/></p>
-                    <p class="descProd"> Mont Saint Michel </p>
+        <div class="caixa">
+            <form action="produtos.php?id=$id" method="GET" name="datalhe">
+                <p><img src="imagens/michel.png" width="290" height="400"/></p>
+                <p class="descProd"> Mont Saint Michel </p>
 <!--                    <input name="id" type="hidden" value="<?php echo $postId ?>"  />-->
-                    <input name="Enviar" type="submit" class="botao" value="Detalhes" />
-                </form>
-            </div>
-            <div class="caixa">
-                <form action="produtos.php?id=$id" method="GET" name="datalhe">
-                    <p><img src="imagens/michel.png" width="290" height="400"/></p>
-                    <p class="descProd"> Mont Saint Michel </p>
+                <input name="Enviar" type="submit" class="botao" value="Detalhes" />
+            </form>
+        </div>
+        <div class="caixa">
+            <form action="produtos.php?id=$id" method="GET" name="datalhe">
+                <p><img src="imagens/michel.png" width="290" height="400"/></p>
+                <p class="descProd"> Mont Saint Michel </p>
 <!--                    <input name="id" type="hidden" value="<?php echo $postId ?>"  />-->
-                    <input name="Enviar" type="submit" class="botao" value="Detalhes" />
-                </form>
-            </div>
-            <div class="caixa">
-                <form action="produtos.php?id=$id" method="GET" name="datalhe">
-                    <p><img src="imagens/michel.png" width="290" height="400"/></p>
-                    <p class="descProd"> Mont Saint Michel </p>
+                <input name="Enviar" type="submit" class="botao" value="Detalhes" />
+            </form>
+        </div>
+        <div class="caixa">
+            <form action="produtos.php?id=$id" method="GET" name="datalhe">
+                <p><img src="imagens/michel.png" width="290" height="400"/></p>
+                <p class="descProd"> Mont Saint Michel </p>
 <!--                    <input name="id" type="hidden" value="<?php echo $postId ?>"  />-->
-                    <input name="Enviar" type="submit" class="botao" value="Detalhes" />
-                </form>
-            </div>
-        </section>
-        <footer>
-            <div id="bl1">
-
-            </div>
-            <div id="bl2">
-                <div class="tituloRp">
-                    MAPA DO SITE<p>
-                </div>
-                <div class="contRp">
-                    <a class="contRp" href="index.php"> Home<br> </a>
-                    <a class="contRp" href="#"> Sobre Nós <br> </a>
-                    <a class="contRp" href="#"> Serviços <br> </a>
-                    <a class="contRp" href=""> Contato<br> </a>
-                </div>
-            </div>
-            <div id="bl3">
-
-            </div>
-            <div id="bInf">
-
-                <div id="cop">© Copyright - Ellipse, todos os direitos reservados.</div> <div id="contInf">contato@ellipsers.com.br - Telefone: (51) 3729-8010</div> 
-
-            </div>
-        </footer>
-    </body>
+                <input name="Enviar" type="submit" class="botao" value="Detalhes" />
+            </form>
+        </div>
+    </section>
+    <?php include('./conteudo/rodape.php'); ?>
+</body>
 </html>

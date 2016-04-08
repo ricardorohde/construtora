@@ -17,22 +17,22 @@ img{max-width: 100%;}
 /*784px;*/
 
 .box_carrossel{width: 460px; height: 305px;overflow: hidden; margin: 10% auto; position: relative; padding: 10px 30px; background: #fff; box-shadow: 0 0 5px 1px #000;}
-.box_carrossel .nav{position: absolute; top: 0; padding: 0 5px; display: table; height: 305px; background: cornflowerblue; color: #fff; font-size: 1.3em; cursor: pointer;}
+.box_carrossel .nav{position: absolute; top: 0; padding: 0 5px; background: #476072; display: table; height: 305px;  color: #fff; font-size: 1.3em; cursor: pointer;}
 .box_carrossel .nav p{display: table-cell; vertical-align: middle;}
-.box_carrossel .nav:hover{background: #99ccff;}
+.box_carrossel .nav:hover{background: #980100;}
 .box_carrossel .nav.back{left: 0;}
 .box_carrossel .nav.forth{right: 0;}
 
 .carrossel{list-style: none; width: 1000%; float: left; background: #fff;}
-.carrossel .item{float: left; width: 400px; padding: 10px; margin-right: 10px; background: #99ccff;}
+.carrossel .item{float: left; width: 400px; padding: 10px; margin-right: 10px; background: #476072;}
 
-/*CARROCEL PLANTA*/
-.box_carrossel1{width: 460px; height: 305px;overflow: hidden; margin: 10% auto; position: relative; padding: 10px 30px; background: #fff; box-shadow: 0 0 5px 1px #000;}
-.box_carrossel1 .nav1{position: absolute; top: 0; padding: 0 5px; display: table; height: 305px; background: cornflowerblue; color: #fff; font-size: 1.3em; cursor: pointer;}
+/*CARROCEL PLANTA  #476072*/
+.box_carrossel1{width: 460px; height: 305px;overflow: hidden; margin: 10% auto; position: relative; padding: 10px 30px; background: #fff; box-shadow: 0 0 5px 1px #476072;}
+.box_carrossel1 .nav1{position: absolute; top: 0; padding: 0 5px; display: table; height: 305px; background: #476072; color: #fff; font-size: 1.3em; cursor: pointer;}
 .box_carrossel1 .nav1 p{display: table-cell; vertical-align: middle;}
-.box_carrossel1 .nav1:hover{background: #99ccff;}
+.box_carrossel1 .nav1:hover{background: #980100;}
 .box_carrossel1 .nav1.back1{left: 0;}
 .box_carrossel1 .nav1.forth1{right: 0;}
 
 .carrossel1{list-style: none; width: 1000%; float: left; background: #fff;}
-.carrossel1 .item1{float: left; width: 400px; padding: 10px; margin-right: 10px; background: #99ccff;}
+.carrossel1 .item1{float: left; width: 400px; padding: 10px; margin-right: 10px; background: #476072;}

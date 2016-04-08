@@ -149,15 +149,18 @@ header{
 /*COMEÇA CORPO DO PROJETO*/
 .corpo{
     background-color: #FFF;
-    height: 600px;
+    height: 650px;
     width: 950px;
     margin: 0 auto;
 }
 .tituloProjeto{
+    padding-top: 25px;
     width: 830px;
     height: 60px;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 30px;
+    
 }
 .rl{
     margin: 0 auto;
@@ -236,17 +239,19 @@ header{
 footer{
     background-color: #FFF;
     margin-top: 25px;
-    height: 250px;
+    height: 200px;
     width: 100%;
     z-index: 99;
     font-family: OpenSans;
 }
 .rodapeCont{
+    /*background-color: #654;*/
     width: 1000px;
     text-align: center;
     margin: 0 auto;
 }
 #bl1{
+    /*background-color: #951;*/
     margin-top: 10px;
     float: left;
     width: 400px;
@@ -255,19 +260,36 @@ footer{
     font-size: 15px;
 }
 #bl2{
+    /*background-color: #754;*/
     text-align:left;
     margin-top: 10px;
     float: left;
     width: 150px;
     height: 160px;
-    font-family:Verdana;
+    font-family:Tahoma;
     font-size: 15px;
 }
 #bl3{
+    /*background-color: #684;*/
     margin-top: 10px;
     float: left;
     width: 400px;
     height: 160px;
-    font-family:Verdana;
+    font-family:Tahoma;
     font-size: 15px;
+}
+.tituloBl3{
+    font-size: 30px;
+    font-family:Tahoma;
+    color: #476072;
+    margin-bottom: 30px;
+}
+#cop{
+    float: left;
+}
+#bInf{
+
+    text-align:center;
+    font-family:Tahoma;
+    font-size: 16px;
 }
