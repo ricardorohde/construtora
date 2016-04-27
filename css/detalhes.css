@@ -71,7 +71,7 @@
     color: #476072;
     margin-bottom: 30px;
 }
-input, textarea { 
+.campoIn { 
     margin-top: 5px;
     width: 400px;
     background: none repeat scroll 0 0 #FFFFFF; 
@@ -83,3 +83,12 @@ input, textarea {
     border-radius: 2px 2px 2px 2px; 
     margin-bottom: 10px;
 }
+
+.btn{padding: 7px 22px; border: 3px solid #eee; background: #fbfbfb; text-transform: uppercase; font-weight: bold;}
+.btn{cursor: pointer; font-size: 0.8em; color: #fff;}
+.btn_final{padding: 7px 22px; border: 3px solid #eee; background: #fbfbfb; text-transform: uppercase; font-weight: bold;}
+.btn_final{cursor: pointer; font-size: 0.8em; color: #fff;}
+.blue{background: #069; border-color: #053a8a}
+.blue:hover{background: #09f; border-color: #069;}
+.green{background: #33752c; border-color: #1f471a}
+.green:hover{background: #4aaa40; border-color: #398431;}
